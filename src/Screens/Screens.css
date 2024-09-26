@@ -1,0 +1,273 @@
+@import url('https://fonts.cdnfonts.com/css/melisa-2');
+@import url('https://fonts.cdnfonts.com/css/getvoip-grotesque');
+/*General*/
+.pags{
+	font-family: 'GetVoIP Grotesque', sans-serif;
+	background-image: url(../Img/Fondo1.svg);
+	background-size: cover;
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+	padding-bottom: 10em;
+}
+.pags h2{
+	font-family: 'auto mobile', sans-serif;
+	font-size: 8vh;
+	text-align: center;
+	background-color: #b3ffff;
+}
+.pags h3{
+	font-size: 7vh;
+	text-align: center;
+	text-shadow: 1vw 1vh 0.1em #b3ffff;
+	display: inline;
+	align-items: center;
+	border-radius: 20%;
+	margin: 5vh;
+	padding-left: 5vh;
+	padding-right: 5vh;
+}
+.pags p, li{
+	font-size: 4.5vh;
+}
+.pags h5{
+	font-family: 'MELISA', sans-serif;
+	font-size: 5vh;
+}
+.pags h4{
+	font-size: 6vh;
+}
+.Boton0{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	background-color: #b3ffff;
+	margin: 1vw;
+	border-radius: 10%;
+	padding: 1vw;
+	box-shadow: 1vw 0 1vw #000000;
+}
+.Boton0:hover{
+	background-color: #66ffff;
+}
+.Boton1:active{
+	box-shadow: none;
+}
+.Boton1{
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	background-color: #b3ffb3;
+	margin: 1vw;
+	border-radius: 10%;
+	padding: 1vw;
+	box-shadow: 1vw 0 1vw #000000;
+}
+.Boton1:hover{
+	background-color: #33ff33;
+}
+.Boton1:active{
+	box-shadow: none;
+}
+.Boton2{
+	text-align: center;
+	cursor: pointer;
+	background-color: #00cccc;
+	margin-top: 1vw;
+	margin-right: 40vw;
+	margin-left: 40vw;
+	border-radius: 50%;
+	padding: 3vh;
+	box-shadow: 0.5vw 0 1vw #000000;
+	list-style-type: none;
+}
+.Boton2:hover{
+	background-color:#009999;
+}
+.Boton2:active{
+	box-shadow: none;
+}
+.Contenido{
+	font-family: 'MELISA', sans-serif;
+	background-color: #b3ffff;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-top: 2vh;
+	margin-bottom: 2vh;
+	padding: 2vw;
+	text-align: center;
+}
+#Peda img{
+	width: 500px;
+	height: 1000px;
+}
+.Contenido h3{
+	font-size: 10vh;
+}	
+.Calen{
+	width: 200px;
+	height: 200px;
+	margin: 1vw;
+}
+/*Somos*/
+#orga{
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	margin: 1vw;
+	padding: 1vw;
+	width: 95%;
+}
+/*Formatos*/
+iframe{
+	width: 100%;
+	height: 100%;
+}
+.forma{
+	display: block;
+	background-color: #b3ffff;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-top: 2vh;
+	padding: 0;
+	text-align: center;
+	height: 100vh;
+	overflow: hidden;
+}
+/*Portadas*/
+article img{
+	width: 200px;
+	height: 200px;
+	margin: 1vw;
+}
+.Port{
+	width: 200px;
+	height: 200px;
+	margin: 1vw;
+	box-shadow: 1vw 1vh 1vh #000000;
+	cursor: pointer;
+	
+}
+.Port:active{
+	box-shadow: none;
+}
+.PortList{
+	display: inline;
+	list-style-type: none;
+}
+.Rece{
+ background: #b2b3b3;
+ margin: 4vh;
+ border-radius: 30%;
+ padding: 4vh;
+}
+.Rece ol{
+	display: inline-block;
+}
+.Rece h6 {
+	font-size: 4vh;
+}
+#Calen{
+	display: grid;
+	grid-template-areas: 
+	"h3 h3 h3"
+	"ul ul article";
+}
+#Calen h3{grid-area: h3;}
+#Calen ul{grid-area: ul;}
+#Calen article{grid-area: article;}
+#Pepi{
+		display: grid;
+		grid-template-areas: 
+		"ul ul article";
+}
+#Pepi ul{grid-area: ul;}
+#Pepi article{grid-area: article;}
+@media(max-width: 952px){
+	#Peda img{
+		width: 250px;
+		height: 500px;
+	}
+	#Peda video{
+		width: 500px;
+		height: 250px;
+	}
+	.Centrar{
+		margin: 0 10px;
+	}
+	.Boton0{
+		font-size: 30px;
+	}
+	.Boton1{
+		font-size: 25px;
+	}
+	.pags h2{
+		font-size: 6vh;
+		text-align: center;
+		background-color: #b3ffff;
+	}
+	.pags h3{
+		font-size: 5vh;
+		text-align: center;
+		text-shadow: 1vw 1vh 0.1em #b3ffff;
+		display: inline;
+		align-items: center;
+		border-radius: 20%;
+		margin: 5vh;
+		padding-left: 5vh;
+		padding-right: 5vh;
+	}
+	#Calen article{
+		margin-right: 70px;
+	}
+	.videos{
+		margin: 0;
+		padding: 0;
+		width: 1%;
+	}
+}
+@media(max-width: 600px){
+	#Pepi .Boton1{
+		font-size: 17px;
+	}
+	.Contenido h4{
+		font-size: 30px;
+	}
+	.Contenido h5{
+		font-size: 28px;
+	}
+	.Contenido li{
+		font-size: 25px;
+	}
+	.Contenido p{
+		font-size: 25px;
+	}
+	.Port{
+ 		width:  100px;
+ 		height: 100px;
+ 	}
+	.pags h2{
+		font-size: 5vh;
+		text-align: center;
+		background-color: #b3ffff;
+	}
+	.pags h3{
+		font-size: 4vh;
+		text-align: center;
+		text-shadow: 1vw 1vh 0.1em #b3ffff;
+		display: inline;
+		align-items: center;
+		border-radius: 20%;
+		margin: 5vh;
+		padding-left: 5vh;
+		padding-right: 5vh;
+	}
+	#Calen article{
+		margin-right: 100px;
+	}
+	.videos{
+		margin: 0;
+		padding: 0;
+		width: 1px;
+	}
+}
