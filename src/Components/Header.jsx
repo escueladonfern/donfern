@@ -22,7 +22,7 @@ const links = [
 	},
 	{
 		name: 'Formatos',
-		href: '/Docs',
+		href: '/Formatos',
 	},
 	{
 		name: 'CRA',
