@@ -1,6 +1,7 @@
 {
   "name": "donfern",
   "private": true,
+  "homepage" : "https://escueladonfernando.netlify.app/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
